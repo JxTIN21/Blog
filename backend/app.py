@@ -503,4 +503,5 @@ def mark_message_as_read(message_id):
     return jsonify({"message": "Message marked as read"}), 200
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    port = int(os.environ.get('PORT', 5000))
+    app.run(host='0.0.0.0', port=port)
