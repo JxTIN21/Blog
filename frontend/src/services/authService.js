@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:5000';
+const API_URL = 'https://blog-backend-xhf5.onrender.com';
 
 export const login = async (username, password) => {
   console.log('Sending login request:', { username, password: '*'.repeat(password.length) });

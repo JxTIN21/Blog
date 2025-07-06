@@ -1,4 +1,4 @@
-const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000';
+const API_URL = process.env.REACT_APP_API_URL || 'https://blog-backend-xhf5.onrender.com';
 
 console.log('API_URL:', API_URL);
 
