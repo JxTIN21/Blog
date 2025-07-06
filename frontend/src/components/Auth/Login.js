@@ -51,15 +51,6 @@ const Login = () => {
     }
   };
 
-  const floatingAnimation = {
-    y: [0, -10, 0],
-    transition: {
-      duration: 3,
-      repeat: Infinity,
-      ease: "easeInOut"
-    }
-  };
-
   return (
     <>
       <style dangerouslySetInnerHTML={{

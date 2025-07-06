@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Heart, Globe, Mail, Github, Twitter, Linkedin, Sparkles} from 'lucide-react';
+import { Heart, Globe, Mail, Github, Linkedin, Sparkles} from 'lucide-react';
 import { FaDiscord } from "react-icons/fa";
 
 const Footer = () => {

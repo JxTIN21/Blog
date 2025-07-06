@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Globe, Users, Target, Heart, Sparkles, BookOpen, Coffee, Code, Lightbulb } from 'lucide-react';
+import { Globe, Users, Target, Heart, BookOpen, Coffee, Lightbulb } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 
 
