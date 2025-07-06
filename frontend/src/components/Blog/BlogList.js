@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { getAllBlogs } from '../../services/blogService';
 import BlogCard from './BlogCard';
 import { motion } from 'framer-motion';
-import { BookOpen, Sparkles, Search, Filter, Grid, List } from 'lucide-react';
+import { BookOpen, Sparkles, Search, Filter} from 'lucide-react';
 
 const BlogList = () => {
     const [blogs, setBlogs] = useState([]);
